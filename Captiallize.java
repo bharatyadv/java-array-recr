@@ -11,7 +11,7 @@ public class Captiallize {
         return words;
     }
     public static void main(String[] args) {
-        String [] s = {"kunal","apple","mango","pie"};
+        String [] s = {"bharat","apple","mango","pie"};
         String[] upper = castUpper(s, s.length-1);
         System.out.println(Arrays.toString(upper));
     }
